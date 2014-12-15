@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <templateSet group="Laravel-Cache">
   <template name="Cache::put" value="Cache::put('$KEY$', $VALUE$, $MINUTES$);$END$" description="Store an item in the Cache (key, value, minutes)" toReformat="true" toShortenFQNames="true">
     <variable name="KEY" expression="" defaultValue="&quot;key&quot;" alwaysStopAt="true" />
@@ -248,4 +247,3 @@
     </context>
   </template>
 </templateSet>
-

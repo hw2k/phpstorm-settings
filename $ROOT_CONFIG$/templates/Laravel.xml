@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <templateSet group="Laravel">
   <template name="model" value="class $NAME$ extends Eloquent &#10;{&#10;    protected $fillable = [];&#10;    $END$&#10;}" description="New Eloquent Model" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
@@ -19,4 +18,3 @@
     </context>
   </template>
 </templateSet>
-

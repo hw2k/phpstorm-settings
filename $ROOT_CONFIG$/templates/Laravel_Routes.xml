@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <templateSet group="Laravel-Routes">
   <template name="Route::get" value="Route::$VERB$('$NAME$', function()&#10;{&#10;    $END$&#10;});" description="Basic Route with Closure (get, post, any)" toReformat="true" toShortenFQNames="true">
     <variable name="VERB" expression="enum(&quot;get&quot;, &quot;post&quot;, &quot;any&quot;)" defaultValue="&quot;get&quot;" alwaysStopAt="true" />
@@ -266,6 +265,7 @@
       <option name="XSL_TEXT" value="false" />
       <option name="XML" value="false" />
       <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
       <option name="SQL" value="false" />
       <option name="JSP" value="false" />
       <option name="CSS_PROPERTY_VALUE" value="false" />
@@ -274,7 +274,6 @@
       <option name="CSS" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
-      <option name="JSON" value="false" />
       <option name="JS_EXPRESSION" value="false" />
       <option name="JS_STATEMENT" value="false" />
       <option name="TypeScript" value="false" />
@@ -287,4 +286,3 @@
     </context>
   </template>
 </templateSet>
-

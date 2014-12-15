@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <templateSet group="Laravel-Schema">
   <template name="$table-&gt;bigIncrements" value="$table-&gt;bigIncrements('$START$');$END$" description="Incrementing ID using a &quot;big integer&quot; equivalent." toReformat="false" toShortenFQNames="true">
     <variable name="START" expression="" defaultValue="&quot;id&quot;" alwaysStopAt="true" />
@@ -984,4 +983,3 @@
     </context>
   </template>
 </templateSet>
-
