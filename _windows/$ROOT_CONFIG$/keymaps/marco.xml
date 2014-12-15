@@ -1,0 +1,111 @@
+<keymap version="1" name="marco" parent="$default">
+  <action id="CheckinProject" />
+  <action id="CloseActiveTab" />
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="control F4" />
+    <keyboard-shortcut first-keystroke="control W" />
+  </action>
+  <action id="CommentByBlockComment">
+    <keyboard-shortcut first-keystroke="shift control SLASH" />
+    <keyboard-shortcut first-keystroke="shift control DIVIDE" />
+    <keyboard-shortcut first-keystroke="shift control QUOTE" />
+  </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="control QUOTE" />
+  </action>
+  <action id="Console.TableResult.Reload" />
+  <action id="CopyElement">
+    <keyboard-shortcut first-keystroke="shift F5" />
+  </action>
+  <action id="EditorDuplicate">
+    <keyboard-shortcut first-keystroke="shift control D" />
+  </action>
+  <action id="EditorJoinLines">
+    <keyboard-shortcut first-keystroke="control J" />
+  </action>
+  <action id="EditorSelectWord">
+    <keyboard-shortcut first-keystroke="alt UP" />
+  </action>
+  <action id="FileChooser.TogglePathShowing" />
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="control R" />
+  </action>
+  <action id="FixDocComment">
+    <keyboard-shortcut first-keystroke="alt T" />
+  </action>
+  <action id="GotoClass">
+    <keyboard-shortcut first-keystroke="control N" />
+    <keyboard-shortcut first-keystroke="shift control P" />
+  </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift control N" />
+    <keyboard-shortcut first-keystroke="control P" />
+  </action>
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="shift control alt P" />
+  </action>
+  <action id="GotoTest" />
+  <action id="Images.Editor.ToggleGrid" />
+  <action id="Images.ShowThumbnails" />
+  <action id="InsertLiveTemplate" />
+  <action id="IntroduceVariable" />
+  <action id="MethodUp" />
+  <action id="MoveLineDown">
+    <keyboard-shortcut first-keystroke="shift control DOWN" />
+  </action>
+  <action id="MoveLineUp">
+    <keyboard-shortcut first-keystroke="shift control UP" />
+  </action>
+  <action id="MoveStatementDown" />
+  <action id="MoveStatementUp" />
+  <action id="NextOccurence" />
+  <action id="NextSplitter">
+    <keyboard-shortcut first-keystroke="alt RIGHT" />
+  </action>
+  <action id="NextTab" />
+  <action id="ParameterInfo">
+    <keyboard-shortcut first-keystroke="alt P" />
+  </action>
+  <action id="PhpGeneratePhpDocBlocks">
+    <keyboard-shortcut first-keystroke="alt B" />
+  </action>
+  <action id="PreviousOccurence" />
+  <action id="QuickJumpAction">
+    <keyboard-shortcut first-keystroke="control SEMICOLON" />
+    <keyboard-shortcut first-keystroke="alt Z" />
+  </action>
+  <action id="Refactorings.QuickListPopupAction">
+    <keyboard-shortcut first-keystroke="control T" />
+  </action>
+  <action id="ReopenClosedTab">
+    <keyboard-shortcut first-keystroke="shift control T" />
+  </action>
+  <action id="Replace" />
+  <action id="ResizeToolWindowDown" />
+  <action id="ResizeToolWindowUp" />
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="control K" second-keystroke="control DOWN" />
+    <keyboard-shortcut first-keystroke="alt H" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="control K" second-keystroke="control RIGHT" />
+    <keyboard-shortcut first-keystroke="alt V" />
+  </action>
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="shift alt ENTER" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="shift alt DOWN" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="shift alt LEFT" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="shift alt RIGHT" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="shift alt UP" />
+  </action>
+  <action id="Uml.ShowDiff" />
+  <action id="Vcs.UpdateProject" />
+</keymap>

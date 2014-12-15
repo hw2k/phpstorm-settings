@@ -1,0 +1,13 @@
+<application>
+  <component name="NotificationConfiguration">
+    <notification groupId="IDE Usage Statistics" displayType="STICKY_BALLOON" shouldLog="false" />
+    <notification groupId="ideavim-sticky" displayType="STICKY_BALLOON" />
+    <toolWindow group="Find in Path" />
+    <toolWindow group="Web Deployment: Remote Host" />
+    <toolWindow group="Web Deployment: File Transfer" />
+    <toolWindow group="PHP Debugger" />
+    <toolWindow group="Debugger messages" />
+    <toolWindow group="JavaScript debugger" />
+    <toolWindow group="Vcs Messages" />
+  </component>
+</application>
