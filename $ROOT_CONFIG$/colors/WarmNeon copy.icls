@@ -1610,6 +1610,11 @@
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
+    <option name="TS.TYPE_PARAMETER">
+      <value>
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
     <option name="TYPE_PARAMETER_NAME_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="f8f870" />

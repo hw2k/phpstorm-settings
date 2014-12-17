@@ -137,8 +137,8 @@
     </option>
     <option name="CTRL_CLICKABLE">
       <value>
-        <option name="FOREGROUND" value="ff" />
-        <option name="EFFECT_COLOR" value="ff" />
+        <option name="FOREGROUND" value="589df6" />
+        <option name="EFFECT_COLOR" value="589df6" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -1075,6 +1075,11 @@
       <value>
         <option name="FOREGROUND" value="65737e" />
         <option name="ERROR_STRIPE_COLOR" value="bf616a" />
+        <option name="EFFECT_TYPE" value="0" />
+      </value>
+    </option>
+    <option name="TS.TYPE_PARAMETER">
+      <value>
         <option name="EFFECT_TYPE" value="0" />
       </value>
     </option>
