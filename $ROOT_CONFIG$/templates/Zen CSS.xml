@@ -1,5 +1,0 @@
-<templateSet group="Zen CSS">
-  <template name="pos:r" value="position:relative;" description="position:relative;" toReformat="true" toShortenFQNames="true">
-    <context />
-  </template>
-</templateSet>
