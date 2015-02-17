@@ -18,6 +18,7 @@
     <option name="BLANK_LINES_AFTER_CLASS_HEADER" value="1" />
     <option name="BRACE_STYLE" value="2" />
     <option name="CLASS_BRACE_STYLE" value="1" />
+    <option name="ELSE_ON_NEW_LINE" value="true" />
     <option name="SPACE_AROUND_UNARY_OPERATOR" value="true" />
     <option name="SPACE_AFTER_TYPE_CAST" value="true" />
   </codeStyleSettings>
