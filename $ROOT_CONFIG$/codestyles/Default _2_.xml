@@ -12,6 +12,10 @@
   <XML>
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
+  <codeStyleSettings language="JavaScript">
+    <option name="METHOD_BRACE_STYLE" value="2" />
+    <option name="ELSE_ON_NEW_LINE" value="true" />
+  </codeStyleSettings>
   <codeStyleSettings language="PHP">
     <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="false" />
     <option name="BLANK_LINES_AFTER_PACKAGE" value="1" />
