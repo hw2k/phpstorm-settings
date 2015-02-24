@@ -144,4 +144,12 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
+  <template name="--" value="/*&#10;|--------------------------------------------------------------------------&#10;| $TITLE$&#10;|--------------------------------------------------------------------------&#10;*/" description="Laravel style comment block" toReformat="false" toShortenFQNames="true">
+    <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="true" />
+      <option name="PHP String Literal" value="false" />
+    </context>
+  </template>
 </templateSet>
