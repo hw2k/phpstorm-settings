@@ -152,4 +152,11 @@
       <option name="PHP String Literal" value="false" />
     </context>
   </template>
+  <template name="btns" value="&lt;button class=&quot;btn btn-primary btn-lg btn-flat&quot; type=&quot;submit&quot;&gt;Spara&lt;/button&gt;&#10;&lt;a class=&quot;btn btn-default btn-lg btn-flat&quot; href=&quot;{{ route('$ROUTE$') }}&quot;&gt;Avbryt&lt;/a&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="ROUTE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="PHP" value="false" />
+    </context>
+  </template>
 </templateSet>
