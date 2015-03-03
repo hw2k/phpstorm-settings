@@ -168,4 +168,17 @@
       <option name="HTML_TEXT" value="true" />
     </context>
   </template>
+  <template name="fieldset" value="&lt;fieldset&gt;&#10;    &lt;legend&gt;$TITLE$&lt;/legend&gt;&#10;    $CONTENT$&#10;&lt;/fieldset&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="TITLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CONTENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="wform" value="&lt;form action=&quot;{{ route('$ROUTE$') }}&quot; method=&quot;post&quot; class=&quot;form-horizontal&quot;&gt;&#10;    &lt;div class=&quot;row&quot;&gt;&#10;        &lt;div class=&quot;col-md-12&quot;&gt;&#10;            &lt;div class=&quot;well&quot;&gt;&#10;                &lt;div class=&quot;row&quot;&gt;&#10;                    &lt;div class=&quot;col-md-5&quot;&gt;&#10;                    &#10;                    &lt;/div&gt;&#10;                    &lt;div class=&quot;col-md-5&quot;&gt;&#10;                    &#10;                    &lt;/div&gt;&#10;                &lt;/div&gt;&#10;            &lt;/div&gt;&#10;        &lt;/div&gt;&#10;    &lt;/div&gt;&#10;&lt;/div&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="ROUTE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+    </context>
+  </template>
 </templateSet>
